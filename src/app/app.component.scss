@@ -1,0 +1,19 @@
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1, h2 {
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: 1.5px #0071BC;
+}
+
+h1 {
+  font-size: xx-large;
+}
