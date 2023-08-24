@@ -9,6 +9,10 @@
   background-position: center;
 }
 
+h1 {
+  font-size: 3em !important;
+}
+
 h1, h2 {
   -webkit-text-fill-color: #fff;
   -webkit-text-stroke: 1.5px #0071BC;
@@ -16,4 +20,19 @@ h1, h2 {
 
 h1 {
   font-size: xx-large;
+}
+
+.item {
+  position: absolute;
+  padding: 15px;
+  left:50%;
+  .item-1 {
+    transform: translateY(calc(-300%)) translateX(calc(-50% - 10px));
+  }
+  .item-2 {
+    transform: translateY(calc(-290%)) translateX(calc(-50% - 10px));
+  }
+  .item-3 {
+    transform: translateY(calc(-280%)) translateX(calc(-50% - 10px));
+  }
 }
