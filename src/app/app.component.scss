@@ -27,12 +27,18 @@ h1 {
   padding: 15px;
   left:50%;
   .item-1 {
-    transform: translateY(calc(-300%)) translateX(calc(-50% - 10px));
+    transform: translateY(calc(-500%)) translateX(calc(-50% - 10px));
   }
   .item-2 {
-    transform: translateY(calc(-290%)) translateX(calc(-50% - 10px));
+    transform: translateY(calc(-490%)) translateX(calc(-50% - 10px));
   }
   .item-3 {
-    transform: translateY(calc(-280%)) translateX(calc(-50% - 10px));
+    transform: translateY(calc(-480%)) translateX(calc(-50% - 10px));
+  }
+  .item-4 {
+    transform: translateY(calc(-470%)) translateX(calc(-50% - 10px));
+  }
+  .item-5 {
+    transform: translateY(calc(-460%)) translateX(calc(-50% - 10px));
   }
 }
